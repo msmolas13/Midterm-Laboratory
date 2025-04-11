@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Confirmation</title>
+</head>
+<body>
+<h2>Submission Received</h2>
+<p><strong>Name:</strong> {{ name }}</p>
+<p><strong>Email:</strong> {{ email }}</p>
+<p><strong>Phone Number:</strong> {{ phone }}</p>
+<p><strong>Message:</strong> {{ message }}</p>
+<p><strong>Subject:</strong> {{ subject }}</p>
+<p><strong>Preferred Contact Method:</strong> {{ ', '.join(contact_methods)
+}}</p>
+<p><strong>Agreed to Terms:</strong> {{ agreement }}</p>
+
+</body>
+</html>
